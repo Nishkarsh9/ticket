@@ -8,7 +8,7 @@ To isolate Python dependencies and avoid conflicts between project packages by u
 
 ---
 
-## ✅ Acceptance Criteria
+## 🔧 Commands & Usage
 
 ### 1. **Creation of Virtual Environment**
 
@@ -17,7 +17,7 @@ python3 -m venv venv_name
 ```
 - venv_name: Name of the virtual environment directory.
 
-2. Activation
+### 2. Activation
 
 ```bash
 source venv_name/bin/activate
@@ -25,7 +25,7 @@ source venv_name/bin/activate
 
 - You should see the environment name prefixed in your terminal prompt.
 
-4. Package Installation
+### 3. Package Installation
 
 ```bash
 pip install <package_name>
@@ -37,30 +37,30 @@ Install multiple packages via requirements.txt:
 pip install -r requirements.txt
 ```
 
-4. Freezing Installed Packages
+### 4. Freezing Installed Packages
 
 ```bash
 pip freeze > requirements.txt
 ```
 - This saves the exact versions of all installed packages.
 
-6. Deactivation
+### 5. Deactivation
 
 ```bash
 deactivate
 ```
 - This will return you to the system’s default Python environment.
 
-8. Deleting a Virtual Environment
+### 6. Deleting a Virtual Environment
 
 ```bash
 rm -rf venv_name
 ```
 - Ensure the environment is deactivated before deletion.
 
-⚠️ Troubleshooting
+## ⚠️ Troubleshooting
 
-❗ Permission Denied
+### ❗ Permission Denied
 If you see a permissions error while activating:
 
 ```bash
@@ -73,7 +73,7 @@ Also consider:
 sudo chown -R $USER venv_name/
 ```
 
-❗ Pip Installation Errors
+### ❗ Pip Installation Errors
 If packages fail to install due to permissions:
 
 ```bash
@@ -85,7 +85,7 @@ Make sure virtualenv is active. If still failing, use:
 pip install --user <package_name>
 ```
 
-📂 Recommended Folder Structure
+### 📂 Recommended Folder Structure
 
 project/
 │
@@ -100,7 +100,7 @@ Virtual environments are project-specific; don’t share them across unrelated p
 
 Always regenerate your virtualenv when switching major Python versions.
 
-📚 References
+### 📚 References
 Python venv docs
 
 Pip User Guide

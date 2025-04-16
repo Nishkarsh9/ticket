@@ -58,6 +58,8 @@ rm -rf venv_name
 ```
 - Ensure the environment is deactivated before deletion.
 
+---
+
 ## ⚠️ Troubleshooting
 
 ### ❗ Permission Denied
@@ -93,14 +95,18 @@ project/
 ├── src/                # Application source code
 ├── requirements.txt    # List of dependencies
 └── README.md           # This document
-📝 Notes
+
+### 📝 Notes
 - Use .gitignore to exclude the venv/ directory.
+- Virtual environments are project-specific; don’t share them across unrelated projects.
+- Always regenerate your virtualenv when switching major Python versions.
 
-Virtual environments are project-specific; don’t share them across unrelated projects.
+---
 
-Always regenerate your virtualenv when switching major Python versions.
+## 🔚 End of SOP
 
-### 📚 References
-Python venv docs
+| Date       | Author           | Change Description         |
+|------------|------------------|----------------------------|
+| 15-Apr-25  | Nishkarsh Kumar  | Initial draft              |
 
-Pip User Guide
+---

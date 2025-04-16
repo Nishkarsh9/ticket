@@ -2,7 +2,7 @@
 
 This document outlines the standard operating procedures (SOPs) for managing Python virtual environments in a common application stack.
 
-## 📌 Purpose
+## 📌 Introduction
 
 To isolate Python dependencies and avoid conflicts between project packages by using virtual environments.
 
@@ -87,26 +87,9 @@ Make sure virtualenv is active. If still failing, use:
 pip install --user <package_name>
 ```
 
-### 📂 Recommended Folder Structure
-
-project/
-│
-├── venv/               # Virtual environment (should be gitignored)
-├── src/                # Application source code
-├── requirements.txt    # List of dependencies
-└── README.md           # This document
-
 ### 📝 Notes
 - Use .gitignore to exclude the venv/ directory.
 - Virtual environments are project-specific; don’t share them across unrelated projects.
 - Always regenerate your virtualenv when switching major Python versions.
-
----
-
-## 🔚 End of SOP
-
-| Date       | Author           | Change Description         |
-|------------|------------------|----------------------------|
-| 15-Apr-25  | Nishkarsh Kumar  | Initial draft              |
 
 ---

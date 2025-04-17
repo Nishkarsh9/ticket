@@ -1,4 +1,4 @@
-# ReactJS Installation Guide for Ubuntu
+# ReactJS Installation Guide
 
 | Created     | Version | Author          | Comment         | Reviewer |
 |-------------|---------|-----------------|-----------------|----------|

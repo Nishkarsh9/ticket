@@ -12,20 +12,20 @@ To isolate Python dependencies and avoid conflicts between project packages by u
 
 ## Table of Contents
 
-1. [Why python environment?](#-why-python-environment)
-2. [What is python environment?](#-what-is-python-environment)
-3. [Commands and usage](#-commands--usage)
+1. [Why python environment?](#why-python-environment)
+2. [What is python environment?](#what-is-python-environment)
+3. [Commands and usage](#commands--usage)
      - [Creation of Virtual Environment](#1-creation-of-virtual-environment)
      - [Activation](#2-activation)
      - [Package Installation](#3-package-installation)
      - [Freezing Installed Packages](#4-freezing-installed-packages)
      - [Deactivation](#5-deactivation)
      - [Deleting a Virtual Environment](#6-deleting-a-virtual-environment)
-4. [Troubleshooting](#-troubleshooting)
+4. [Troubleshooting](#troubleshooting)
      - [Permission Denied](#-permission-denied)
      - [Pip Installation Errors](#2-pip-installation-errors)
-6. [Contacts](#-contacts)
-7. [References](#-references)
+6. [Contacts](#contacts)
+7. [References](#references)
 
 ---
 

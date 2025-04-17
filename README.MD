@@ -34,7 +34,6 @@ Ansible playbooks enable consistent, repeatable automation of IT tasks across mu
 ## What is ansible playbook?
 An Ansible playbook is a YAML file that defines a set of automation tasks to be executed on remote machines. It describes the desired system state and handles configuration, deployment, and orchestration efficiently.
 
----
 
 ## Prerequisites
 

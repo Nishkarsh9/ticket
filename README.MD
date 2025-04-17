@@ -8,7 +8,6 @@
 ## Introduction
 This SOP outlines the standard procedure to execute the Ansible playbook reliably. It ensures consistent automation by detailing the objective, required inputs, validation checks, and step-by-step execution process.
 
----
 
 ## Table of Contents
 
@@ -31,8 +30,6 @@ This SOP outlines the standard procedure to execute the Ansible playbook reliabl
 ## Why ansible playbook?
 Ansible playbooks enable consistent, repeatable automation of IT tasks across multiple systems. They reduce manual errors and save time by executing complex workflows with simple, human-readable code.
 
----
-
 ## What is ansible playbook?
 An Ansible playbook is a YAML file that defines a set of automation tasks to be executed on remote machines. It describes the desired system state and handles configuration, deployment, and orchestration efficiently.
 
@@ -48,7 +45,6 @@ Ensure the following before executing the playbook:
 - Python installed on target nodes.
 - Vault password file is available (if using Ansible Vault).
 
----
 
 ## Required Inputs
 
@@ -59,7 +55,6 @@ Ensure the following before executing the playbook:
 | `vault_password` | Vault password file (if using encrypted secrets) | Required (if using Vault)               |
 | `extra_vars`     | Dynamic variables passed at runtime              | Required (if playbook expects variables)|
 
----
 
 ## Commands & Usage
 
@@ -88,7 +83,6 @@ or:
 ansible-playbook site.yml -i inventory/prod.ini --extra-vars "env=prod" --vault-password-file ~/.ansible/.vault_pass.txt
 ```
 
----
 
 ## Troubleshooting
 
@@ -103,7 +97,6 @@ ansible-playbook site.yml -i inventory/prod.ini --extra-vars "env=prod" --vault-
 ansible-playbook site.yml -i inventory/prod.ini -vvv
 ```
 
----
 
 ## Contacts
 
@@ -111,7 +104,6 @@ ansible-playbook site.yml -i inventory/prod.ini -vvv
 |-----------------|-----------------------------------------------|
 | Nishkarsh Kumar | nishkarsh.kumar.snaatak@mygurukulam.co        |
 
----
 
 ## References
 

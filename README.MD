@@ -101,7 +101,7 @@ ansible-playbook site.yml -i inventory/prod.ini --extra-vars "env=prod" --vault-
 
 ```bash
 ansible-playbook site.yml -i inventory/prod.ini -vvv
-```bash
+```
 
 ---
 

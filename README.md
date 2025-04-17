@@ -4,13 +4,13 @@
 |-------------|---------|-----------------|-----------------|----------|
 | 15-04-2025  | V1      | Nishkarsh Kumar | Internal review | Pritam   |
 
-## 📌 Introduction
+## Introduction
 
 To isolate Python dependencies and avoid conflicts between project packages by using virtual environments.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 1. [Why python environment?](#-why-python-environment)
 2. [What is python environment?](#-what-is-python-environment)
@@ -21,7 +21,7 @@ To isolate Python dependencies and avoid conflicts between project packages by u
      - [Freezing Installed Packages](#4-freezing-installed-packages)
      - [Deactivation](#5-deactivation)
      - [Deleting a Virtual Environment](#6-deleting-a-virtual-environment)
-4. [Troubleshooting](#️-troubleshooting)
+4. [Troubleshooting](#-troubleshooting)
      - [Permission Denied](#-permission-denied)
      - [Pip Installation Errors](#2-pip-installation-errors)
 6. [Contacts](#-contacts)
@@ -29,17 +29,17 @@ To isolate Python dependencies and avoid conflicts between project packages by u
 
 ---
 
-## 📌 Why python environment?
+## Why python environment?
 Python virtual environments isolate project dependencies, preventing version conflicts across projects.
 They ensure consistent, reproducible setups for development, testing, and deployment.
 
 ---
 
-## 📌 What is python environment?
+## What is python environment?
 A Python environment is a self-contained directory that includes a specific Python interpreter and installed packages. It allows you to run and manage Python projects with isolated dependencies.
 
 ---
-## 🔧 Commands & Usage
+## Commands & Usage
 
 ### 1. **Creation of Virtual Environment**
 
@@ -91,7 +91,7 @@ rm -rf venv_name
 
 ---
 
-## ⚠️ Troubleshooting
+## Troubleshooting
 
 ### Permission Denied
 If you see a permissions error while activating:

@@ -97,7 +97,7 @@ ansible-playbook site.yml -i inventory/prod.ini --extra-vars "env=prod" --vault-
     - Missing vars → Ensure all required variables are provided.
     - Vault decryption failed → Verify vault password file.
 
-### Check logs: Use -vvv for verbose output:
+### Check logs: Use -vvv for verbose output
 
 ```bash
 ansible-playbook site.yml -i inventory/prod.ini -vvv

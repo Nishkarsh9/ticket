@@ -1,4 +1,4 @@
-## SOP: Java Installation via Bash Script
+## Java Installation via Bash Script
 
 | Created     | Version | Author          | Comment         | Reviewer |
 |-------------|---------|-----------------|-----------------|----------|

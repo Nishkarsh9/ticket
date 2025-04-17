@@ -60,19 +60,19 @@ Ensure the following before executing the playbook:
 
 ### Execution Steps
 
-1. Run syntax check (optional but recommended)
+## 1. Run syntax check (optional but recommended)
 
 ```bash
 ansible-playbook site.yml --syntax-check
 ```
 
-2. Run dry-run (optional)
+## 2. Run dry-run (optional)
 
 ```bash
 ansible-playbook site.yml --check -i inventory/prod.ini
 ```
 
-3. Execute the playbook
+## 3. Execute the playbook
 
 ```bash
 ansible-playbook site.yml -i inventory/prod.ini 
@@ -91,7 +91,7 @@ ansible-playbook site.yml -i inventory/prod.ini --extra-vars "env=prod" --vault-
     - Missing vars → Ensure all required variables are provided.
     - Vault decryption failed → Verify vault password file.
 
-### Check logs: Use -vvv for verbose output
+### Check logs : Use -vvv for verbose output
 
 ```bash
 ansible-playbook site.yml -i inventory/prod.ini -vvv

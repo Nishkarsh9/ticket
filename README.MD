@@ -60,19 +60,19 @@ Ensure the following before executing the playbook:
 
 ### Execution Steps
 
-## 1. Run syntax check (optional but recommended)
+### 1. Run syntax check (optional but recommended)
 
 ```bash
 ansible-playbook site.yml --syntax-check
 ```
 
-## 2. Run dry-run (optional)
+### 2. Run dry-run (optional)
 
 ```bash
 ansible-playbook site.yml --check -i inventory/prod.ini
 ```
 
-## 3. Execute the playbook
+### 3. Execute the playbook
 
 ```bash
 ansible-playbook site.yml -i inventory/prod.ini 

@@ -1,4 +1,5 @@
-SOP: Java Installation via Bash Script
+## SOP: Java Installation via Bash Script
+
 | Created     | Version | Author          | Comment         | Reviewer |
 |-------------|---------|-----------------|-----------------|----------|
 | 16-04-2025  | V1      | Nishkarsh Kumar | Internal review | Pritam   |
@@ -20,7 +21,6 @@ This repository contains a generic bash script for installing and managing multi
 7. [Contacts](#contacts)
 8. [References](#references)
 
----
 
 ## Why Java?
 
@@ -104,11 +104,11 @@ The script currently supports:
 |-----------------|-----------------------------------------------|
 | Nishkarsh Kumar | nishkarsh.kumar.snaatak@mygurukulam.co        |
 
----
-
 ## References
 
 | **Title**                              | **Link**                                                                                        |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|
 | Java SE Documentation                  | [Visit]([https://docs.python.org/3/library/venv.html](https://docs.oracle.com/en/java/javase/)) |
 | OpenJDK Official Website               | [Visit]([https://pip.pypa.io/en/stable/](https://openjdk.org/))                                 |
+
+---

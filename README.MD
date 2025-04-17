@@ -1,8 +1,10 @@
 # SOP: Ansible Playbook
 
+
 | Created     | Version | Author          | Comment         | Reviewer |
 |-------------|---------|-----------------|-----------------|----------|
 | 16-04-2025  | V1      | Nishkarsh Kumar | Internal review | Pritam   |
+
 
 
 ## Introduction
@@ -25,7 +27,6 @@ This SOP outlines the standard procedure to execute the Ansible playbook reliabl
 6. [Contacts](#contacts)
 7. [References](#references)
 
----
 
 ## Why ansible playbook?
 Ansible playbooks enable consistent, repeatable automation of IT tasks across multiple systems. They reduce manual errors and save time by executing complex workflows with simple, human-readable code.

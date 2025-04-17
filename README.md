@@ -1,6 +1,8 @@
 # SOP: Python Virtual Environment
 
-This document outlines the standard operating procedures (SOPs) for managing Python virtual environments in a common application stack.
+| Created     | Version | Author          | Comment         | Reviewer |
+|-------------|---------|-----------------|-----------------|----------|
+| 15-04-2025  | V1      | Nishkarsh Kumar | Internal review | Pritam   |
 
 ## 📌 Introduction
 
@@ -8,6 +10,35 @@ To isolate Python dependencies and avoid conflicts between project packages by u
 
 ---
 
+## 📚 Table of Contents
+
+1. [Why python environment?](#-why-python-environment)
+2. [What is python environment?](#-what-is-python-environment)
+3. [Commands and usage](#-commands--usage)
+     - [Creation of Virtual Environment](#1-creation-of-virtual-environment)
+     - [Activation](#2-activation)
+     - [Package Installation](#3-package-installation)
+     - [Freezing Installed Packages](#4-freezing-installed-packages)
+     - [Deactivation](#5-deactivation)
+     - [Deleting a Virtual Environment](#6-deleting-a-virtual-environment)
+4. [Troubleshooting](#️-troubleshooting)
+     - [Permission Denied](#-permission-denied)
+     - [Pip Installation Errors](#2-pip-installation-errors)
+6. [Contacts](#-contacts)
+7. [References](#-references)
+
+---
+
+## 📌 Why python environment?
+Python virtual environments isolate project dependencies, preventing version conflicts across projects.
+They ensure consistent, reproducible setups for development, testing, and deployment.
+
+---
+
+## 📌 What is python environment?
+A Python environment is a self-contained directory that includes a specific Python interpreter and installed packages. It allows you to run and manage Python projects with isolated dependencies.
+
+---
 ## 🔧 Commands & Usage
 
 ### 1. **Creation of Virtual Environment**
@@ -62,7 +93,7 @@ rm -rf venv_name
 
 ## ⚠️ Troubleshooting
 
-### ❗ Permission Denied
+### Permission Denied
 If you see a permissions error while activating:
 
 ```bash
@@ -75,7 +106,7 @@ Also consider:
 sudo chown -R $USER venv_name/
 ```
 
-### ❗ Pip Installation Errors
+### Pip Installation Errors
 If packages fail to install due to permissions:
 
 ```bash
@@ -87,9 +118,18 @@ Make sure virtualenv is active. If still failing, use:
 pip install --user <package_name>
 ```
 
-### 📝 Notes
-- Use .gitignore to exclude the venv/ directory.
-- Virtual environments are project-specific; don’t share them across unrelated projects.
-- Always regenerate your virtualenv when switching major Python versions.
+
+## Contacts
+
+| Name            | Email Address                                 |
+|-----------------|-----------------------------------------------|
+| Nishkarsh Kumar | nishkarsh.kumar.snaatak@mygurukulam.co        |
 
 ---
+
+## References
+
+| **Title**                              | **Link**                                                                                      |
+|----------------------------------------|-----------------------------------------------------------------------------------------------|
+| Python venv Documentation              | [Visit](https://docs.python.org/3/library/venv.html)                                          |
+| pip Documentation                      | [Visit](https://pip.pypa.io/en/stable/)                                                       |

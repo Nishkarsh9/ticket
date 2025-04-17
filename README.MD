@@ -4,6 +4,7 @@
 |-------------|---------|-----------------|-----------------|----------|
 | 16-04-2025  | V1      | Nishkarsh Kumar | Internal review | Pritam   |
 
+
 ## Introduction
 This SOP outlines the standard procedure to execute the Ansible playbook reliably. It ensures consistent automation by detailing the objective, required inputs, validation checks, and step-by-step execution process.
 

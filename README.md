@@ -22,8 +22,8 @@ To isolate Python dependencies and avoid conflicts between project packages by u
      - [Deactivation](#5-deactivation)
      - [Deleting a Virtual Environment](#6-deleting-a-virtual-environment)
 4. [Troubleshooting](#troubleshooting)
-     - [Permission Denied](#-permission-denied)
-     - [Pip Installation Errors](#2-pip-installation-errors)
+     - [Permission Denied](#permission-denied)
+     - [Pip Installation Errors](#pip-installation-errors)
 6. [Contacts](#contacts)
 7. [References](#references)
 

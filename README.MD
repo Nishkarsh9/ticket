@@ -23,7 +23,7 @@ This SOP outlines the standard procedure to execute the Ansible playbook reliabl
      - [Execute the playbook](#3-execute-the-playbook)
 4. [Troubleshooting](#troubleshooting)
      - [Common errors](#common-errors)
-     - [Check logs](#check-logs)
+     - [Check logs](#check-logs--use--vvv-for-verbose-output)
 6. [Contacts](#contacts)
 7. [References](#references)
 

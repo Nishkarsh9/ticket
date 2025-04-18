@@ -15,9 +15,9 @@ This guide provides a step-by-step process for setting up a ReactJS development 
 4. [Step-by-step-installation-guide](#step-by-step-installation-guide)
      - [Update system packages](#1-update-system-packages)
      - [Install nodejs and npm](#2-install-nodejs-and-npm)
-     - [Install create react app](#3-install-create-react-app)
-     - [Create your first react app](#4-create-your-first-react-app)
-     - [Start-the-development-server](#5-start-the-development-server)
+     - [Create a React App with Vite](#3-create-a-react-app-with-vite)
+     - [Install Dependencies](#4-install-dependencies)
+     - [Start-the-local-development-server](#5-start-the-local-development-server)
 5. [Troubleshooting](#troubleshooting)
      - [Permission Denied](#if-you-encounter-permission-errors)
      - [Other Error](#if-the-app-doesnt-start)
@@ -59,27 +59,26 @@ node --version
 npm --version
 ```
 
-### 3. Install Create React App
+### 3. Create a React App with Vite
 Create React App is the official way to create single-page React applications.
 
 ```bash
-sudo npm install -g create-react-app
+npm create vite@latest my-react-app -- --template react
 ```
 
-### 4. Create Your First React App
+### 4. Install Dependencies
 Navigate to your development directory and create a new React app:
 
 ```bash
-npx create-react-app my-react-app
+npm install
 ```
 
-### 5. Start the Development Server
-Navigate to you create-react-app directory and run below provided command.
+### 5. Start the local Development Server
 
 ```bash
-npm start
+npm run dev
 ```
-This will start the development server and automatically open your app in the default browser at http://localhost:3000.
+This will start the development server at http://localhost:5173.
 
 ## Troubleshooting
 

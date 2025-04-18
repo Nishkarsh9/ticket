@@ -14,7 +14,8 @@ This repository contains a generic bash script for installing and managing multi
 2. [What is Java?](#what-is-java)
 3. [Commands and usage](#commands--usage)
      - [Download the script](#1-download-the-script)
-     - [Run the script](#2-run-the-script)
+     - [Make script executable](#2-make-script-executable)
+     - [Run the script](#3-run-the-script)
 4. [Options](#options)
 5. [Environment configuration](#environment-configuration)
 6. [Supported java versions](#supported-java-versions)
@@ -38,7 +39,13 @@ Java is a high-level, class-based, object-oriented programming language designed
 wget https://java-installl.s3.ap-south-1.amazonaws.com/install_java.sh
 ```
 
-### 2. Run the script
+### 2. Make script executable
+
+```bash
+wget https://java-installl.s3.ap-south-1.amazonaws.com/install_java.sh
+```
+
+### 3. Run the script
 
 ```bash
 ./install_java.sh [options]

@@ -21,11 +21,12 @@ To isolate Python dependencies and avoid conflicts between project packages by u
      - [Freezing Installed Packages](#4-freezing-installed-packages)
      - [Deactivation](#5-deactivation)
      - [Deleting a Virtual Environment](#6-deleting-a-virtual-environment)
-4. [Troubleshooting](#troubleshooting)
+5. [Example](#example)
+6. [Troubleshooting](#troubleshooting)
      - [Permission Denied](#permission-denied)
      - [Pip Installation Errors](#pip-installation-errors)
-6. [Contacts](#contacts)
-7. [References](#references)
+7. [Contacts](#contacts)
+8. [References](#references)
 
 ---
 
@@ -90,6 +91,14 @@ rm -rf venv_name
 - Ensure the environment is deactivated before deletion.
 
 ---
+
+## Example
+In the context of ot/attendance-api we have used:
+
+ ```bash
+poetry config virtualenvs.create true --local
+```
+This command simply enable creation of a virtual environment locally within the project directory using Poetry.
 
 ## Troubleshooting
 

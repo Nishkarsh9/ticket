@@ -17,10 +17,8 @@
      - [Install Migrate](#2-install-migrate)
      - [Verify installation](#3-verify-installation)
      - [Run Migrations](#4-run-migrations)
-     - [Deactivation](#5-deactivation)
-     - [Deleting a Virtual Environment](#6-deleting-a-virtual-environment)
-5. [Contacts](#contacts)
-6. [References](#references)
+4. [Contacts](#contacts)
+5. [References](#references)
 
 ---
 

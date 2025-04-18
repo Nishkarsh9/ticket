@@ -1,4 +1,4 @@
-## Java Installation via Bash Script
+# Java Installation via Bash Script
 
 | Created     | Version | Author          | Comment         | Reviewer |
 |-------------|---------|-----------------|-----------------|----------|
@@ -12,15 +12,15 @@ This repository contains a generic bash script for installing and managing multi
 
 1. [Why Java?](#why-java)
 2. [What is Java?](#what-is-java)
-3. [Commands and usage](#commands--usage)
+3. [Supported java versions](#supported-java-versions)
+4. [Commands and usage](#commands--usage)
      - [Download the script](#1-download-the-script)
      - [Make script executable](#2-make-script-executable)
      - [Run the script](#3-run-the-script)
-4. [Options](#options)
-5. [Environment configuration](#environment-configuration)
-6. [Supported java versions](#supported-java-versions)
-7. [Contacts](#contacts)
-8. [References](#references)
+5. [Options](#options)
+6. [Environment configuration](#environment-configuration)
+8. [Contacts](#contacts)
+9. [References](#references)
 
 
 ## Why Java?
@@ -30,6 +30,14 @@ Java is a platform-independent, object-oriented programming language used to bui
 ## What is Java?
 
 Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. It is widely used for building cross-platform applications, from web and enterprise software to mobile and embedded systems.
+
+## Supported Java Versions
+
+The script currently supports:
+ - JDK 8 (1.8)
+ - JDK 11
+ - JDK 17
+ - Latest version
 
 ## Commands & Usage
 
@@ -42,7 +50,7 @@ wget https://java-installl.s3.ap-south-1.amazonaws.com/install_java.sh
 ### 2. Make script executable
 
 ```bash
-wget https://java-installl.s3.ap-south-1.amazonaws.com/install_java.sh
+chmod +x install_java.sh
 ```
 
 ### 3. Run the script
@@ -96,14 +104,6 @@ The script automatically configures the following environment variables:
   - Update to PATH
 
 For system-wide installations, these are set in /etc/environment. For user installations, they're added to ~/.bashrc.
-
-## Supported Java Versions
-
-The script currently supports:
- - JDK 8 (1.8)
- - JDK 11
- - JDK 17
- - Latest version
 
 ## Contacts
 

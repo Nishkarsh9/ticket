@@ -21,39 +21,16 @@ This comparison will cover the following aspects:
 
 ## 2. Tools Overview
 
-### 2.1 Tool A
-- **Tool Name:** Tool A  
-- **Description:** Tool A is a [Add a brief description of Tool A]. It is designed to [Specify Tool A's primary purpose].  
-- **Vendor:** [Specify Vendor Name or N/A]  
-- **Version:** [Specify Version Number]  
-- **Website:** [Link to Tool A Website]  
-
-**Key Features:**
-- [Key Feature 1]
-- [Key Feature 2]
-- [Key Feature 3]
-- [Key Feature 4]
-
-**Licensing Model:** [Commercial / Open Source / Other]  
-**Cost:** [e.g., Commercial, $XX per user/month | Open Source, Free]
-
----
-
-### 2.2 Tool B
-- **Tool Name:** Tool B  
-- **Description:** Tool B is a [Add a brief description of Tool B]. It is designed to [Specify Tool B's primary purpose].  
-- **Vendor:** [Specify Vendor Name or N/A]  
-- **Version:** [Specify Version Number]  
-- **Website:** [Link to Tool B Website]  
-
-**Key Features:**
-- [Key Feature 1]
-- [Key Feature 2]
-- [Key Feature 3]
-- [Key Feature 4]
-
-**Licensing Model:** [Commercial / Open Source / Other]  
-**Cost:** [e.g., Commercial, $YY per user/month | Open Source, Free]
+| Attribute         | Tool A                                                   | Tool B                                                   |
+|------------------|-----------------------------------------------------------|-----------------------------------------------------------|
+| **Tool Name**     | Tool A                                                   | Tool B                                                   |
+| **Description**   | [Add a brief description of Tool A] <br>Designed to [purpose] | [Add a brief description of Tool B] <br>Designed to [purpose] |
+| **Vendor**        | [Vendor Name or N/A]                                     | [Vendor Name or N/A]                                     |
+| **Version**       | [Version Number]                                         | [Version Number]                                         |
+| **Website**       | [Link to Tool A Website]                                 | [Link to Tool B Website]                                 |
+| **Key Features**  | - [Feature 1] <br> - [Feature 2] <br> - [Feature 3] <br> - [Feature 4] | - [Feature 1] <br> - [Feature 2] <br> - [Feature 3] <br> - [Feature 4] |
+| **Licensing Model** | [Commercial / Open Source / Other]                     | [Commercial / Open Source / Other]                       |
+| **Cost**          | [e.g., Commercial, $XX per user/month / Open Source, Free] | [e.g., Commercial, $YY per user/month / Open Source, Free] |
 
 ---
 

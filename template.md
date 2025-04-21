@@ -1,4 +1,4 @@
-# Tool A vs. Tool B Comparison
+# Tools comparison and recommendation template
 
 This document compares **Tool A** and **Tool B** to determine the best solution for our specific requirements. We aim to provide a clear and concise analysis to support the recommendation of **Tool A**.
 

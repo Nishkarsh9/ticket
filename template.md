@@ -106,7 +106,7 @@ Tool A is the clear winner in this comparison. It aligns better with our require
 
 | Name           | Email ID                 |
 |----------------|--------------------------|
-| [Your Name]    | [your.email@example.com] |
+|  Name          | your.email@example.com |
 
 ---
 

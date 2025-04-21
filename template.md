@@ -42,7 +42,6 @@ This comparison will cover the following aspects:
 | **Website**         | [Tool A Website](#)                                      | [Tool B Website](#)                                      |
 | **Key Features**    | - [Feature 1] <br> - [Feature 2] <br> - [Feature 3] <br> - [Feature 4] | - [Feature 1] <br> - [Feature 2] <br> - [Feature 3] <br> - [Feature 4] |
 | **Licensing Model** | [Commercial / Open Source / Other]                       | [Commercial / Open Source / Other]                       |
-| **Cost**            | [e.g., $XX/user/month or Free]                           | [e.g., $YY/user/month or Free]                           |
 
 ---
 

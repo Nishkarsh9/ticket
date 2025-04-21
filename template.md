@@ -1,6 +1,8 @@
-# Tools comparison and recommendation template
+# Tool Evaluation Template: Tools comparison and recommendation template
 
-This document compares **Tool A** and **Tool B** to determine the best solution for our specific requirements. We aim to provide a clear and concise analysis to support the recommendation of **Tool A**.
+| Created     | Version | Author          | Comment         | Reviewer |
+|-------------|---------|-----------------|-----------------|----------|
+| 21-04-2025  | V1      | Nishkarsh Kumar | Internal review | Pritam   |
 
 ---
 
@@ -20,8 +22,7 @@ This document compares **Tool A** and **Tool B** to determine the best solution 
 
 ## 1. Introduction
 
-**Purpose**  
-The purpose of this comparison is to evaluate Tool A and Tool B and recommend the most suitable tool for our needs. We will assess each tool's capabilities, usability, and overall fit to ensure an informed decision.
+This document compares **Tool A** and **Tool B** to determine the best solution for our specific requirements. We aim to provide a clear and concise analysis to support the recommendation of **Tool A**.
 
 **Scope**  
 This comparison will cover the following aspects:

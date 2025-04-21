@@ -116,9 +116,9 @@ Tool A is the clear winner in this comparison. It aligns better with our require
 
 | Reference Name                          | Link                         |
 |----------------------------------------|------------------------------|
-| Tool A Official Website                | [Link](#)                    |
-| Tool B Official Website                | [Link](#)                    |
-| Internal Performance Benchmark (2025 Q1)| [Internal Document/Link](#) |
-| Usability Testing Session Summary      | [Internal Document/Link](#)  |
+| Tool A Official Website                | [Visit](#)                    |
+| Tool B Official Website                | [Visit](#)                    |
+| Internal Performance Benchmark (2025 Q1)| [Visit](#)                   |
+| Usability Testing Session Summary      | [Visit](#)                    |
 
 ---

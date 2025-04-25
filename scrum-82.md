@@ -141,7 +141,7 @@ Starts a development server (usually on http://<public_ip>:3000):
 
 ---
 
-## Contacts
+## Contact
 
 | Name            | Email Address                                 |
 |-----------------|-----------------------------------------------|

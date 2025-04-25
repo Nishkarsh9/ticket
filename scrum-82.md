@@ -47,6 +47,8 @@ The primary goal of this PoC is to demonstrate the setup and execution of the Re
 | **NPM**      | Node Package Manager for installing project libraries. |
 | **make**| Build automation tool used to simplify and execute project build steps |
 
+---
+
 ## Ports Required
 
 | Port | Used By     | Description                                      |
@@ -137,6 +139,7 @@ Starts a development server (usually on http://<public_ip>:3000):
 
 ![clone-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222745.png)
 
+---
 
 ## Contacts
 
@@ -151,3 +154,5 @@ Starts a development server (usually on http://<public_ip>:3000):
 | Node.js Official Docs                  | [Visit](https://nodejs.org/en/download/package-manager) |
 | NPM Documentation               | [Visit](https://docs.npmjs.com/)                                 |
 | React Official Documentation               | [Visit](https://reactjs.org/docs/getting-started.html)                                 |
+
+---

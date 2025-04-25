@@ -106,6 +106,6 @@ Starts a development server (usually on http://localhost:3000)
 
 | **Title**                              | **Link**                                                                                        |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|
-| Node.js Official Docs                  | [Visit]([https://nodejs.org/en/download/package-manager]) |
+| Node.js Official Docs                  | [Visit](https://nodejs.org/en/download/package-manager) |
 | NPM Documentation               | [Visit](https://docs.npmjs.com/)                                 |
 | React Official Documentation               | [Visit](https://reactjs.org/docs/getting-started.html)                                 |

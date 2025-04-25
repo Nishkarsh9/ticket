@@ -52,55 +52,49 @@ The primary goal of this PoC is to demonstrate the setup and execution of the Re
 
 ### 1. Update Package Index
 
+**Follow Step 3 here**: [Ubuntu Basic System Commands](https://github.com/snaatak-Downtime-Crew/Documentation/tree/main/common_stack/operating_system/ubuntu/sop/commoncommands#1-basic-system-commands)
 
-### 2.  Install Node.js
+### 2.  Install Node.js and NPM
 
-```bash
-sudo apt install nodejs
-```
+**Follow Step 2 here**: [SOP for NPM](https://github.com/snaatak-Downtime-Crew/Documentation/blob/shivani_scrums_36/common_stack/application/reactjs/npm/sop/README.MD#step-2-check--install-nodejs-and-npm)
 
-### 3. Install npm
+### 3. Install make
 
-```bash
-sudo apt install npm
-```
+**Follow Step 2 here**: [SOP for Migrate](https://github.com/snaatak-Downtime-Crew/Documentation/blob/main/common_stack/others/make/sop/README.md#installation-on-linux)
 
-### 4. Install make
-
-```bash
-sudo apt install make
-```
-
-### 5. Clone the repository
+### 4. Clone the repository
 
 ```bash
 git clone https://github.com/OT-MICROSERVICES/frontend.git 
 ```
 
-### 6. Set the enviornment variable
+### 5. Set the enviornment variable
 
 ```bash
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
-### 7. Install the dependencies and build the react app
+### 6. Install the dependencies and build the react app
+
+change the directory and move inside the frontend, then run:
 
 ```bash
 make build
 ```
 
-### Alternate
+###    Alternate
 
 ```bash
 npm install
 npm run build
 ```
 
-### 7. Launches the React development server
+### 7. Launch the React development server
 
 ```bash
 npm start
 ```
+Starts a development server (usually on http://localhost:3000)
 
 ## Contacts
 

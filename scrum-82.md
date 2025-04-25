@@ -133,7 +133,7 @@ npm start
 
 
 
-Starts a development server (usually on http://localhost/<public_ip>:3000):
+Starts a development server (usually on http://<public_ip>:3000):
 
 ![clone-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222745.png)
 

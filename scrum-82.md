@@ -25,7 +25,7 @@ This document provides a Proof-of-Concept (PoC) for setting up and running the F
 
 ## Purpose
 
-The primary goal of this PoC is to demonstrate the setup and execution of the ReactJS-based frontend within the OT-Microservices ecosystem. This frontend serves as the visual interface through which users interact with underlying microservices such as Employee, Attendance, and Salary modules.
+The primary goal of this PoC is to demonstrate the setup and execution of the ReactJS-based frontend within the OT-Microservices ecosystem. This frontend serves as the visual interface through which users interact with underlying microservices such as Employee, Attendance, and Salary microservices.
 
 ## System Requirements
 

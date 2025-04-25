@@ -11,10 +11,11 @@
 1. [Introduction](#introduction)  
 2. [Purpose](#purpose)  
 3. [System Requirements](#system-requirements)
-4. [Prerequisites](#prerequisites)  
-5. [Commands to setup](#commands-to-setup)      
-6. [Contact](#contact)  
-7. [References](#references)
+4. [Prerequisites](#prerequisites)
+5. [Ports Required](#ports-required)  
+6. [Commands to setup](#commands-to-setup)      
+7. [Contact](#contact)  
+8. [References](#references)
 
 ---
 
@@ -46,6 +47,13 @@ The primary goal of this PoC is to demonstrate the setup and execution of the Re
 | **NPM**      | Node Package Manager for installing project libraries. |
 | **make**| Build automation tool used to simplify and execute project build steps |
 
+## Ports Required
+
+| Port | Used By     | Description                                      |
+|------|-------------|--------------------------------------------------|
+| 22   | SSH         | Used for secure remote login and VM access.     |
+| 3000 | React App   | Default port used by React development server.  |
+
 ---
 
 ## Commands to setup
@@ -54,25 +62,39 @@ The primary goal of this PoC is to demonstrate the setup and execution of the Re
 
 **Follow Step 3 here**: [Ubuntu Basic System Commands](https://github.com/snaatak-Downtime-Crew/Documentation/tree/main/common_stack/operating_system/ubuntu/sop/commoncommands#1-basic-system-commands)
 
+![update-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20221405.png)
+
+
 ### 2.  Install Node.js and NPM
 
 **Follow Step 2 here**: [SOP for NPM](https://github.com/snaatak-Downtime-Crew/Documentation/blob/shivani_scrums_36/common_stack/application/reactjs/npm/sop/README.MD#step-2-check--install-nodejs-and-npm)
 
+![nodejs-npm-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20221756.png)
+
+
 ### 3. Install make
 
-**Follow Step 2 here**: [SOP for Migrate](https://github.com/snaatak-Downtime-Crew/Documentation/blob/main/common_stack/others/make/sop/README.md#installation-on-linux)
+**Follow Step 2 here**: [SOP for Make](https://github.com/snaatak-Downtime-Crew/Documentation/blob/main/common_stack/others/make/sop/README.md#installation-on-linux)
+
+![make-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20221857.png)
+
 
 ### 4. Clone the repository
 
 ```bash
 git clone https://github.com/OT-MICROSERVICES/frontend.git 
 ```
+![clone-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20221952.png)
+
 
 ### 5. Set the enviornment variable
 
 ```bash
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
+
+![env-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222022.png)
+
 
 ### 6. Install the dependencies and build the react app
 
@@ -81,6 +103,12 @@ change the directory and move inside the frontend, then run:
 ```bash
 make build
 ```
+
+![make-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222345.png)
+
+
+![make-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222521.png)
+
 
 ###    Alternate
 
@@ -94,7 +122,21 @@ npm run build
 ```bash
 npm start
 ```
-Starts a development server (usually on http://localhost:3000)
+
+![clone-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222631.png)
+
+
+![clone-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222721.png)
+
+
+![clone-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222631.png)
+
+
+
+Starts a development server (usually on http://localhost/<public_ip>:3000):
+
+![clone-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222745.png)
+
 
 ## Contacts
 

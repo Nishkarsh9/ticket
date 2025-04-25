@@ -112,7 +112,7 @@ make build
 ![make-command](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-25%20222521.png)
 
 
-###    Alternate
+###    Alternate Command:
 
 ```bash
 npm install
@@ -146,6 +146,7 @@ Starts a development server (usually on http://<public_ip>:3000):
 | Name            | Email Address                                 |
 |-----------------|-----------------------------------------------|
 | Nishkarsh Kumar | nishkarsh.kumar.snaatak@mygurukulam.co        |
+
 
 ## References
 

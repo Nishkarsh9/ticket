@@ -21,7 +21,7 @@ Feature Branch Workflow isolates development work without affecting the main cod
 
 ## Workflow Diagram
 
-![Feature Branch Workflow](https://blog.mergify.com/content/images/size/w1000/2023/06/image-15.png)
+![Feature Branch Workflow](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-28%20165008.png)
 
 ## Advantages
 

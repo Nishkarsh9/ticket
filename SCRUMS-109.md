@@ -100,10 +100,7 @@ Authentication (Authn) is a critical component of Version Control System (VCS) s
 
 ## Conclusion  
 For our VCS implementation, we will use:  
-- **Primary Method**: **Personal Access Tokens (PATs)** for all automated workflows and CI/CD pipelines  
-- **Secondary Methods**:  
-  - SSH Keys for developer CLI access when PATs are not feasible  
-  - OAuth 2.0 for web portal authentication  
+- **Personal Access Tokens (PATs)** for all automated workflows and CI/CD pipelines   
 - **Deprecated**: Basic Auth (username/password) is strictly prohibited  
 
 All PATs will be:  

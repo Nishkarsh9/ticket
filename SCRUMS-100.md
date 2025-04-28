@@ -47,7 +47,7 @@ The Feature Branch Workflow offers a scalable and organized approach to managing
 
 | **Name**    | **Email**                |
 |-------------|--------------------------|
-| Utkarsh     | [nishkarsh.kumar.snaatak@mygurukulam.co]  |
+| Utkarsh     | nishkarsh.kumar.snaatak@mygurukulam.co  |
 
 ## References
 

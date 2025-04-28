@@ -1,4 +1,4 @@
-# VCS Authentication
+# Documentation: VCS Authentication
 
 | Created     | Last Updated | Version | Author          | Comment         | Reviewer |
 |-------------|--------------|---------|-----------------|-----------------|----------|

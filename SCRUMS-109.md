@@ -120,4 +120,3 @@ All PATs will be:
 |--------------------------------|----------------------------------------------------------------------|  
 | GitHub PAT Documentation       | [Visit](https://docs.github.com/en/authentication) |  
 | OAuth 2.0 RFC                  | [Visit](https://tools.ietf.org/html/rfc6749) |  
-| NIST Auth Guidelines           | [Visit](https://csrc.nist.gov/projects/authentication) |  

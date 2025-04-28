@@ -99,9 +99,7 @@ Authentication (Authn) is a critical component of Version Control System (VCS) s
 ---
 
 ## Conclusion  
-For our VCS implementation, we will use:  
-- **Personal Access Tokens (PATs)** for all automated workflows and CI/CD pipelines   
-- **Deprecated**: Basic Auth (username/password) is strictly prohibited  
+Personal Access Tokens (PATs) offer the most practical authentication solution, combining strong security with ease of use for most VCS workflows. While SSH and OAuth remain viable for specific use cases, PATs' granular access control and widespread adoption make them the preferred choice for modern version control systems.
 
 All PATs will be:  
 - Scope-limited to minimum required permissions  

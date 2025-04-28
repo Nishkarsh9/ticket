@@ -1,5 +1,16 @@
 # Documentation: Feature Branch Flow
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Why Feature Branch Workflow?](#why-feature-branch-workflow)
+- [Workflow Diagram](#workflow-diagram)
+- [Advantages](#advantages)
+- [Disadvantages](#disadvantages)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
+
 ## Introduction
 
 In modern software development, maintaining an efficient Version Control System (VCS) strategy is crucial for collaboration, quality, and agility. A well-structured branching strategy ensures smooth feature development, bug fixes, and releases with minimal conflicts. This document presents the Feature Branch Workflow as a proven approach for managing changes within a VCS.
@@ -36,7 +47,7 @@ The Feature Branch Workflow offers a scalable and organized approach to managing
 
 | **Name**    | **Email**                |
 |-------------|--------------------------|
-| Nishkarsh Kumar     | [nishkarsh.kumar.snaatak@mygurukulam.co]  |
+| Utkarsh     | [nishkarsh.kumar.snaatak@mygurukulam.co]  |
 
 ## References
 

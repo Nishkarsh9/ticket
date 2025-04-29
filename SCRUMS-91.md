@@ -123,33 +123,33 @@ Before running the application, ensure you have installed:
 - Built with **React.js**, **HTML**, and **CSS**.
 - Provides interfaces for employees, attendance and salaries
 - Connects to:
-  - [Employee API](https://github.com/OT-MICROSERVICES/employee-api)
-  - [Salary API](https://github.com/OT-MICROSERVICES/salary-api)
-  - [Attendance API](https://github.com/OT-MICROSERVICES/attendance-api)
-  - [Notification API](https://github.com/OT-MICROSERVICES/notification-worker)
+  - [Employee API](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-78-YUVRAJ/ot-ms-understanding/employee/poc/README.md)
+  - [Salary API](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-80-Durgesh/ot-ms-understanding/salary/poc/README.md)
+  - [Attendance API](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-76-SHIVANI/ot-ms-understanding/attendance/poc/README.md)
+  - [Notification API](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-74-Prateek/ot-ms-understanding/notification/poc/README.md)
 
 ### Backend
 
 #### 1. Employee API  
-**Repo**: [employee-api](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-78-YUVRAJ/ot-ms-understanding/employee/poc/README.md)  
+**Repo**: [Employee-API](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-78-YUVRAJ/ot-ms-understanding/employee/poc/README.md)  
 - Built using **Go-language**  
 - Uses **Redis** for caching and **ScyllaDB** for persistent storage  
 - Pushes relevant data to **Elasticsearch** for downstream notification processing  
 
 #### 2. Salary API  
-**Repo**: [salary-api](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-80-Durgesh/ot-ms-understanding/salary/poc/README.md)  
+**Repo**: [Salary-API](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-80-Durgesh/ot-ms-understanding/salary/poc/README.md)  
 - Built with **Java**  
 - Uses **Redis** for caching and **ScyllaDB** for salary records  
 - Pushes salary alerts and logs to **Elasticsearch** for notifications  
 
 #### 3. Attendance API  
-**Repo**: [attendance-api](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-76-SHIVANI/ot-ms-understanding/attendance/poc/README.md)  
+**Repo**: [Attendance-API](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-76-SHIVANI/ot-ms-understanding/attendance/poc/README.md)  
 - Built using **Python**    
 - Uses **Redis** as a caching layer  
 - Uses **PostgreSQL** for attendance records  
 
 #### 4. Notification API  
-**Repo**: [notification-worker](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-74-Prateek/ot-ms-understanding/notification/poc/README.md)  
+**Repo**: [Notification-API](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-74-Prateek/ot-ms-understanding/notification/poc/README.md)  
 - Built in **Python**  
 - Consumes employee/salary events from **Elasticsearch**  
 - Sends appropriate notifications (email/SMS/logs)   

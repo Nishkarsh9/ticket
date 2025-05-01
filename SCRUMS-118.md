@@ -12,7 +12,9 @@
   - [Branch Naming Conventions](#branch-naming-conventions)
   - [Tag Naming Conventions](#tag-naming-conventions)
   - [Commit Message Guidelines](#commit-message-guidelines)
-- [Acceptance Criteria](#acceptance-criteria)
+- [Best Practices](#best-practices)
+- [Contact Information](#contact-information)
+- [References](#references)  
 
 ---
 
@@ -119,5 +121,5 @@ Added middleware to validate JWT tokens for all protected routes.
 
 | Title                          | Link                                                                 |  
 |--------------------------------|----------------------------------------------------------------------|  
-| GitHub PAT Documentation       | [Visit](https://docs.github.com/en/authentication) |  
-| OAuth 2.0 RFC                  | [Visit](https://tools.ietf.org/html/rfc6749) |  
+| GitFlow Guide       | [Visit](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) |  
+| Conventional Commits                  | [Visit](https://www.conventionalcommits.org/) |  

@@ -3,9 +3,9 @@
 
 ## **Author Information**
 
-| Created       | Version | Author   | Last Updated | Comment           | Reviewer          |
-|---------------|---------|----------|--------------|-------------------|-------------------|
-| 28-04-2025    | V1.0    | Nishkarsh Kumar  | 28-04-2025   | Initial Version   | Internal Reviewer |
+| Created     | Last Updated | Version | Author          | Comment         | Reviewer |
+|-------------|--------------|---------|-----------------|-----------------|----------|
+| 01-05-2025  |  01-05-2025  | V1      | Nishkarsh Kumar | Internal Review | Pritam   |
 
 ---
 
@@ -23,9 +23,9 @@
 8. [Application Components](#application-components)  
     - [Frontend](#frontend)  
     - [Backend](#backend)  
-9. [Contact Information](#contact-information)  
-10. [References](#references)  
-11. [Conclusion](#conclusion)
+9. [Conclusion](#conclusion)  
+10. [Contact Information](#contact-information)  
+11. [References](#references)  
 
 ---
 
@@ -96,7 +96,7 @@ Before running the application, ensure you have installed:
 ---
 
 ## Architecture
-
+[1]!(https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-29%20155617.png)
 - React frontend interacts with the backend microservices: Employee, Salary, Attendance, and Notification APIs.
 - Redis serves as a caching layer for performance.
 - ScyllaDB and PostgreSQL are used for persistent data storage.
@@ -156,6 +156,12 @@ Before running the application, ensure you have installed:
 
 ---
 
+## Conclusion
+
+This documentation outlines the complete architecture, tools, and interdependencies in the OT-MICROSERVICES full-stack application. Each microservice is responsible for a domain-specific function and integrates using best practices. Elasticsearch serves as the bridge for real-time data processing and triggering notifications via a Python worker, making the system scalable and event-driven. The modular nature of the system ensures maintainability, scalability, and performance for modern enterprise requirements.
+
+---
+
 ## Contact Information
 
 | Name       | Email Address                        |
@@ -175,7 +181,3 @@ Before running the application, ensure you have installed:
 | Elasticsearch Docs | [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/index.html) |
 
 ---
-
-## Conclusion
-
-This documentation outlines the complete architecture, tools, and interdependencies in the OT-MICROSERVICES full-stack application. Each microservice is responsible for a domain-specific function and integrates using best practices. Elasticsearch serves as the bridge for real-time data processing and triggering notifications via a Python worker, making the system scalable and event-driven. The modular nature of the system ensures maintainability, scalability, and performance for modern enterprise requirements.

@@ -96,7 +96,7 @@ Before running the application, ensure you have installed:
 ---
 
 ## Architecture
-[1]!(https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-29%20155617.png)
+![1](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-04-29%20155617.png)
 - React frontend interacts with the backend microservices: Employee, Salary, Attendance, and Notification APIs.
 - Redis serves as a caching layer for performance.
 - ScyllaDB and PostgreSQL are used for persistent data storage.

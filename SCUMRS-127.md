@@ -22,7 +22,9 @@
 ---
 
 ## Introduction
-This document captures the **Implementation** of the steps outlined in the [SSL POC](#) for securing our project domain using **Nginx** and **Certbot**.
+This document captures the **Implementation** of the steps outlined in the **SSL POC** for securing our project domain using **Nginx** and **Certbot**.
+
+For POC of SSL, [SSL-POC](https://github.com/snaatak-Downtime-Crew/Documentation/blob/SCRUMS-126-harsh/domain-security/dns-ssl/ssl%20poc/README.md#step-by-step-guide)
 
 ---
 

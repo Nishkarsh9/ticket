@@ -12,10 +12,9 @@
 1. [Introduction](#introduction)  
 2. [Pre-requisites](#pre-requisites)  
 3. [Authentication Method 1: 2FA](#authentication-method-1-2fa)  
-4. [Authentication Method 2: PAT (Classic Token)](#authentication-method-2-pat-classic-token)  
-5. [Conclusion](#conclusion)  
-6. [Contact Information](#contact-information)  
-7. [References](#references)  
+4. [Authentication Method 2: PAT (Classic Token)](#authentication-method-2-pat-classic-token)    
+5. [Contact Information](#contact-information)  
+6. [References](#references)  
 
 ---
 

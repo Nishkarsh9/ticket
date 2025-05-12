@@ -21,13 +21,13 @@
 
 ## Introduction
 
-This README provides a comprehensive walkthrough to set up secure authentication using **Two-Factor Authentication (2FA)** and **Personal Access Token (PAT - Classic)** for accessing protected systems, services, or repositories (e.g., GitHub, internal platforms).
+This README provides a comprehensive walkthrough to set up secure authentication using **Two-Factor Authentication (2FA)** and **Personal Access Token (PAT - Classic)** for accessing protected systems, services, or repositories (e.g., GitHub).
 
 ---
 
 ## Pre-requisites
 
-- A valid user account on the platform (e.g., GitHub, GitLab, internal tool).
+- A valid user account on the platform (e.g., GitHub, GitLab).
 - Admin or developer access to manage tokens or 2FA.
 - Mobile device with an Authenticator App (Google Authenticator, Microsoft Authenticator, etc.).
 - Installed Git CLI (if working with code repositories).

@@ -1,4 +1,4 @@
-# VCS IMPLEMENTATION: SETUP AUTHENTICATION
+# VCS IMPLEMENTATION: AUTHENTICATION SETUP
 
 | Created     | Last Updated | Version | Author          | Comment         | Reviewer |
 |-------------|--------------|---------|-----------------|-----------------|----------|

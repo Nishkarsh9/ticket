@@ -109,5 +109,5 @@ While mutable infrastructure offers ease of modification, it introduces configur
 
 | Title                          | Link                                                                 |  
 |--------------------------------|----------------------------------------------------------------------|  
-| Mutable vs Immutable - HashiCorp       | [Visit](https://www.hashicorp.com/resources/mutable-vs-immutable-infrastructure) |  
-| Immutable Infrastructure - Martin Fowler                  | [Visit](https://martinfowler.com/bliki/ImmutableInfrastructure.html) |  
+| Mutable vs Immutable - HashiCorp       | [Visit](https://www.hashicorp.com/en/resources/what-is-mutable-vs-immutable-infrastructure) |  
+| Immutable Infrastructure and Mutable Infra - Medium                  | [Visit](https://medium.com/devopscurry/understanding-the-mutable-immutable-infrastructure-in-devops-world-64d33134e233) |  

@@ -8,16 +8,16 @@
 
 ## Table of Contents
 
-[1. Introduction](#1-introduction)
-[2. What is Mutable Infrastructure?](#2-what-is-mutable-infrastructure)
-[3. What is Immutable Infrastructure?](#3-what-is-immutable-infrastructure)
-[4. Why it Matters](#4-why-it-matters)
-[5. Comparison Table](#5-comparison-table)
-[6. Advantages & Disadvantages](#6-advantages--disadvantages)
-[7. Best Practices](#7-best-practices)
-[8. Conclusion](#8-conclusion)
-[9. Contact Information](#9-contact-information)
-[10. References](#10-references) 
+1. [Introduction](#1-introduction)
+2. [What is Mutable Infrastructure?](#2-what-is-mutable-infrastructure)
+3. [What is Immutable Infrastructure?](#3-what-is-immutable-infrastructure)
+4. [Why it Matters](#4-why-it-matters)
+5. [Comparison Table](#5-comparison-table)
+6. [Advantages & Disadvantages](#6-advantages--disadvantages)
+7. [Best Practices](#7-best-practices)
+8. [Conclusion](#8-conclusion)
+9. [Contact Information](#9-contact-information)
+10. [References](#10-references) 
 
 ---
 

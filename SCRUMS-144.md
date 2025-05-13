@@ -31,7 +31,7 @@ Application CI (Continuous Integration) design plays a crucial role in deliverin
 
 Mutable infrastructure refers to environments that can be updated or modified after deployment. Changes such as software updates, patches, and configurations are applied directly to running systems.
 
-![1](https://github.com/Nishkarsh9/images/blob/main/1_YIVkSGMpw3pJktvsQoqmnw.png)
+![1](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-13%20102929.png)
 
 ---
 
@@ -39,7 +39,7 @@ Mutable infrastructure refers to environments that can be updated or modified af
 
 Immutable infrastructure treats all deployments as disposable. Rather than updating existing systems, you replace them entirely with new versions during every deployment.
 
-![2](https://github.com/Nishkarsh9/images/blob/main/1_AYjJoJODNQoYty76t88mmA.png)
+![2](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-13%20103607.png)
 
 ---
 

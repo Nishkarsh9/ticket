@@ -71,26 +71,10 @@ Choosing the right infrastructure approach affects:
 
 ## 6. Advantages & Disadvantages
 
-### Mutable Infrastructure
-
-**Advantages**:
-- Easier debugging and patching
-- Lower initial cost
-
-**Disadvantages**:
-- Harder to maintain consistency
-- High configuration drift risk
-
-### Immutable Infrastructure
-
-**Advantages**:
-- Predictable deployments
-- Simplified CI/CD
-- Easier rollbacks
-
-**Disadvantages**:
-- Debugging is more difficult
-- Requires better image management
+| Type                     | Advantages                                                                                                 | Disadvantages                                                                  |
+|--------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| **Mutable Infrastructure**   | - Easier debugging and live patching<br>- Lower initial setup cost                                            | - High risk of configuration drift<br>- Harder to maintain consistency          |
+| **Immutable Infrastructure** | - Predictable, repeatable deployments<br>- Simplified rollback and CI/CD<br>- Easier to scale with automation | - Difficult to debug live systems<br>- Requires good image and version management |
 
 ---
 

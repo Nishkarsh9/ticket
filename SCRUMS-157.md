@@ -123,5 +123,5 @@ After careful evaluation of all available testing frameworks, we have determined
 
 | Title                          | Link                                                                 |  
 |--------------------------------|----------------------------------------------------------------------|  
-| Mutable vs Immutable - HashiCorp       | [Visit](https://www.hashicorp.com/en/resources/what-is-mutable-vs-immutable-infrastructure) |  
-| Immutable Infrastructure and Mutable Infra - Medium                  | [Visit](https://medium.com/devopscurry/understanding-the-mutable-immutable-infrastructure-in-devops-world-64d33134e233) |  
+| Jest Documentation       | [Visit](https://jestjs.io/) |  
+| React Testing Best Practices                  | [Visit](https://legacy.reactjs.org/docs/testing.html) |  

@@ -33,6 +33,7 @@ This POC demonstrates how to execute and enhance the existing unit tests in the 
 git clone https://github.com/OT-MICROSERVICES/employee-api.git
 cd employee-api
 ```
+![1](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20173429.png)
 ## 2. Basic Test Commands
 
 ### Run All Tests
@@ -40,11 +41,15 @@ cd employee-api
 ```bash
 go test ./...
 ```
+![2](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20174457.png)
+
 ### Run Tests with Verbose Output
 
 ```bash
 go test -v ./...
 ```
+![3](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20174538.png)
+
 ### Run Tests for a Specific Package
 
 ```bash
@@ -62,11 +67,15 @@ go test -v -run TestGetEmployee ./internal/handler
 ```bash
 go test -coverprofile=coverage.out ./...
 ```
+![4](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20174627.png)
+
 ### For execution of the unit test cases, code coverage reports, etc., we can use the `go test` command.
 
 ```bash
 go test $(go list ./... | grep -v docs | grep -v model | grep -v main.go) -coverprofile cover.out
 ```
+![5](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20174218.png)
+
 ## Contact
 
 | **Name**    | **Email**                |

@@ -44,16 +44,39 @@ Key components:
 ---
 
 ## Workflow Diagram  
+## Workflow Diagram
+
 ```mermaid
 graph TD
-    A[Client Request] --> B[Load Balancer]
-    B --> C[Primary Jenkins Node]
-    B --> D[Secondary Jenkins Node]
-    C --> E[Shared Storage\n(NFS/EFS/S3)]
+    subgraph Clients
+        A[Client Requests]
+    end
+    
+    subgraph Load Balancing
+        B{Load Balancer\n(Nginx/HAProxy)}
+    end
+    
+    subgraph Jenkins Cluster
+        C[Primary Node\n(Active)]
+        D[Secondary Node\n(Standby)]
+    end
+    
+    subgraph Storage
+        E[(Shared Storage\nNFS/EFS/S3)]
+    end
+    
+    A --> B
+    B -->|Active Traffic| C
+    B -->|Standby| D
+    C --> E
     D --> E
-    C -.->|Heartbeat Check| D
-    D -->|Failover| C
-```
+    C -.->|Heartbeat| D
+    D -->|Auto Failover| C
+    
+    style C fill:#4CAF50,stroke:#388E3C
+    style D fill:#F44336,stroke:#D32F2F
+    style B fill:#2196F3,stroke:#1976D2
+    style E fill:#FFC107,stroke:#FFA000
 
 1. Clients send requests to the Load Balancer.  
 2. The Load Balancer routes traffic to the active Jenkins node.  

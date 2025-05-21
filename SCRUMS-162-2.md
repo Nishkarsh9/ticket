@@ -79,11 +79,12 @@ When errors exist:
 $ python3 -m py_compile app.py
 ```
 **output:**
+```bash
   File "app.py", line 15
     return user_id == None
                 ^
 SyntaxError: invalid syntax
-
+```
 ## Contact
 
 | **Name**    | **Email**                |

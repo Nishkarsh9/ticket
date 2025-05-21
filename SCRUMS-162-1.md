@@ -67,20 +67,11 @@ graph TD
 
 After evaluating all options, we recommend using Python's built-in `py_compile` for code compilation checks because:
 
-✔ No external dependencies required  
-✔ Simple and reliable syntax validation  
-✔ Fast execution compared to linters  
-✔ Native Python solution with no setup  
+No external dependencies required  
+Simple and reliable syntax validation  
+Fast execution compared to linters  
+Native Python solution with no setup  
 
-**Implementation Example:**
-
-```bash
-# Basic check
-python -m py_compile script.py
-
-# Recursive check for a package
-find . -name "*.py" -exec python -m py_compile {} +
-```
 ## Contact
 
 | **Name**    | **Email**                |

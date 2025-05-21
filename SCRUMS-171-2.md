@@ -62,6 +62,11 @@ go test -v -run TestGetEmployee ./internal/handler
 ```bash
 go test -coverprofile=coverage.out ./...
 ```
+### For execution of the unit test cases, code coverage reports, etc., we can use the `go test` command.
+
+```bash
+go test $(go list ./... | grep -v docs | grep -v model | grep -v main.go) -coverprofile cover.out
+```
 ## Contact
 
 | **Name**    | **Email**                |

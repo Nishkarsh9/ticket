@@ -45,7 +45,7 @@ Key components:
 
 ## Workflow Diagram  
 ```mermaid
-flowchart TD
+graph TD
     A[Client Request] --> B[Load Balancer]
     B --> C[Primary Jenkins Node]
     B --> D[Secondary Jenkins Node]

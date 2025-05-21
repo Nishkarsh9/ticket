@@ -4,7 +4,7 @@
 |--------------|---------|-----------------|-----------------|----------|
 |  21-05-2025  | V1      | Nishkarsh Kumar | Internal Review | Pritam   |
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Introduction](#introduction)  
 2. [Prerequisites](#prerequisites)  
@@ -64,7 +64,7 @@ When all files compile successfully:
 ```bash
 $ python3 -m py_compile app.py
 # No output means success
-
+```
 **Verification:**
 
 ```bash

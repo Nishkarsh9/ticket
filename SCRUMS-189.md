@@ -53,16 +53,16 @@ graph TD
     end
     
     subgraph Load Balancing
-        B{Load Balancer\n(Nginx/HAProxy)}
+        B[Load Balancer<br/>(Nginx/HAProxy)]
     end
     
     subgraph Jenkins Cluster
-        C[Primary Node\n(Active)]
-        D[Secondary Node\n(Standby)]
+        C[Primary Node<br/>(Active)]
+        D[Secondary Node<br/>(Standby)]
     end
     
     subgraph Storage
-        E[(Shared Storage\nNFS/EFS/S3)]
+        E[Shared Storage<br/>NFS/EFS/S3]
     end
     
     A --> B

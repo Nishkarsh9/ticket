@@ -67,10 +67,10 @@ graph TD
 
 After evaluating all options, we recommend using Python's built-in `py_compile` for code compilation checks because:
 
-No external dependencies required  
-Simple and reliable syntax validation  
-Fast execution compared to linters  
-Native Python solution with no setup  
+- No external dependencies required  
+- Simple and reliable syntax validation  
+- Fast execution compared to linters  
+- Native Python solution with no setup  
 
 ## Contact
 

@@ -18,9 +18,16 @@ This POC demonstrates the implementation of Jest for unit testing React componen
 
 ### 1. Base Installation
 ```bash
-npm install --save-dev jest @types/jest @testing-library/react @testing-library/jest-dom
+npm install --save-dev \
+  jest@26.x \
+  @types/jest@26.x \
+  @testing-library/react@12.x \
+  @testing-library/jest-dom@5.x \
+  @testing-library/user-event@13.x \
+  jest-environment-jsdom@26.x \
+  --legacy-peer-deps
 ```
-
+![1](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20123037.png)
 ### 2. Configuration Files
 
 #### `jest.config.js`
@@ -38,7 +45,7 @@ module.exports = {
   ]
 };
 ```
-
+![2]()
 #### `jest.config.js`
 
 ```bash
@@ -53,7 +60,7 @@ require('@testing-library/jest-dom/extend-expect');
   "test:coverage": "jest --coverage"
 }
 ```
-
+![3](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20123343.png)
 ### 4.  Sample Test File
 Create a test file for a React component in /frontend/src/components/__tests__/Example.test.js.
 ```bash
@@ -66,12 +73,13 @@ test('renders button with text', () => {
   expect(screen.getByText('Click Me')).toBeInTheDocument();
 });
 ```
-
+![4](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20123904.png)
 ### 5.  Running Tests
 
 ```bash
 npm test
 ```
+![5](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-21%20130015.png)
 ## Contact
 
 | **Name**    | **Email**                |

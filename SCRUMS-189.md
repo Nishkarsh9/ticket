@@ -50,7 +50,7 @@ flowchart TD
     A[Client Request] --> B[Load Balancer]
     B --> C[Primary Jenkins Node]
     B --> D[Secondary Jenkins Node]
-    C --> E[Shared Storage\n(NFS/EFS/S3)]
+    C --> E[Shared Storage (NFS/EFS/S3)]
     D --> E
     C -.->|Heartbeat Check| D
     D -->|Failover| C

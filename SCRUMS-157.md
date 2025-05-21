@@ -50,6 +50,7 @@ graph TD
     E -->|No| G[Debug Issues]
     F --> H[Continue Development]
     G --> C
+```
 
 # React Unit Testing Tools Comparison
 

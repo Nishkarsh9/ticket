@@ -15,7 +15,6 @@
 8. [Recommendation & Conclusion](#recommendation--conclusion)
 9. [Contact Information](#contact-information)
 10. [References](#references)
-11. [Manual Testing via Terminal](#manual-testing-via-terminal)
 
 ## Introduction
 

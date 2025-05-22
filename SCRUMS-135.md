@@ -11,10 +11,11 @@
 
 1. [Introduction](#introduction)  
 2. [Pre-requisites](#pre-requisites)  
-3. [Authentication Method 1: 2FA](#authentication-method-1-2fa)  
-4. [Authentication Method 2: PAT (Classic Token)](#authentication-method-2-pat-classic-token)    
-5. [Contact Information](#contact-information)  
-6. [References](#references)  
+3. [Authentication Method 1: 2FA](#authentication-method-1-2fa)
+4. [Enforcing 2FA Organization Wide](#enforcing-2fa-organization-wide)
+5. [Authentication Method 2: PAT (Classic Token)](#authentication-method-2-pat-classic-token)    
+6. [Contact Information](#contact-information)  
+7. [References](#references)  
 
 ---
 

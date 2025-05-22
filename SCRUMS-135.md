@@ -65,6 +65,21 @@ This README provides a comprehensive walkthrough to set up secure authentication
 ![5](https://github.com/Nishkarsh9/images/blob/main/Screenshot%202025-05-12%20124942.png)
 
 ---
+## Enforcing 2FA Organization-Wide
+
+### 1: Access Organization Settings
+1. Navigate to your **Organization** → **Settings** → **Security**  
+  
+![Organization Security Settings](https://github.com/Nishkarsh9/images/blob/main/image.png)
+
+### 2: Enable 2FA Enforcement
+1. Under **Two-Factor Authentication** section:
+   - Toggle **"Require Two-Factor Authentication"** to ON
+
+![Enable 2FA Enforcement](https://github.com/Nishkarsh9/images/blob/main/image%20(1).png)
+
+
+![Enable 2FA Enforcement-new](https://github.com/Nishkarsh9/images/blob/main/image%20(2).png)
 
 ## Authentication Method 2: PAT (Classic Token)
 

@@ -11,9 +11,9 @@
 2. [OpenVPN Installation](#openvpn-installation)
 3. [Configuration](#configuration)
 4. [Client Setup](#client-setup)
-5. [Contact Information](#contact-information)
-6. [Troubleshooting](#troubleshooting)
-7. [References](#references)
+5. [Testing](#testing)
+6.  [Contact Information](#contact-information)
+8. [References](#references)
 
 ## Server Setup
 

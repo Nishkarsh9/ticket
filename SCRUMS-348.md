@@ -15,7 +15,7 @@
 - [Directory Structure Explanation](#5-directory-structure-explanation)
 - [Flow Diagram Requirements](#6-flow-diagram-requirements)
 - [Contact Information](#7-contact-information)
-- [Reference Table](#8-reference-table)
+- [References](#8-references)
 
 ---
 
@@ -85,7 +85,8 @@ scylladb/
 │   └── test.yml
 └── README.md       # Documentation
 
-## 6.  Flow Diagram Requirements
+## 6. Flow Diagram Requirements
+```mermaid
 flowchart TD
     A[Install Prerequisites] --> B[Setup GPG Key]
     B --> C[Configure Repository]
@@ -95,7 +96,7 @@ flowchart TD
     F --> G[Start and Enable Service]
     G --> H[Wait for Port 9042]
     H --> I[Verify Installation]
-
+```
     
 ## 7. Contact Information  
 | **Name**    | **Email**                |

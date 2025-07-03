@@ -13,10 +13,8 @@
   - [Key Components](#key-components)
   - [Sample Code](#sample-code)
   - [Execution](#execution)
-- [Demo Plan](#demo-plan)
 - [Rollback Strategy](#rollback-strategy)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Review Process](#review-process)
+- [Contact Information](#contact-information)
 - [References](#references)
 
 ## Overview
@@ -60,8 +58,8 @@ graph TD
    variable "new_ami_id" {
      description = "ID of the new immutable AMI"
      type        = string
-   }
-```
+   } 
+   ```
 
 2. **Preview Changes**
 ```bash
@@ -74,6 +72,16 @@ Execute changes with auto-approval (for CI/CD):
 ```bash
 terraform apply -var="new_ami_id=ami-1234567890abcdef0" -auto-approve
 ```
+### Rollback Strategy
+**Automated**
+- Triggered by failed health checks or CloudWatch alarms
+- Reverts to last stable version within 5 minutes
+
+**Manual**
+- Reapply previous Terraform state
+- Adjust Auto Scaling Group if needed
+- Verify traffic returns to stable instances
+- Typical recovery time: <15 minutes
 
 ## Contact Information  
 | **Name**    | **Email**                |

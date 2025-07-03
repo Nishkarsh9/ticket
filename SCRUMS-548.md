@@ -11,8 +11,7 @@
 - [High-Level Flow Diagram](#high-level-flow-diagram)
 - [Terraform Implementation](#terraform-implementation)
   - [Key Components](#key-components)
-  - [Sample Code](#sample-code)
-  - [Execution](#execution)
+  - [Execution](#execution-steps)
 - [Rollback Strategy](#rollback-strategy)
 - [Contact Information](#contact-information)
 - [References](#references)
@@ -72,7 +71,8 @@ Execute changes with auto-approval (for CI/CD):
 ```bash
 terraform apply -var="new_ami_id=ami-1234567890abcdef0" -auto-approve
 ```
-### Rollback Strategy
+
+## Rollback Strategy
 **Automated**
 - Triggered by failed health checks or CloudWatch alarms
 - Reverts to last stable version within 5 minutes

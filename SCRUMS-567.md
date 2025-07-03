@@ -87,7 +87,7 @@ This document outlines the design for monitoring application logs, defining aler
 ---
 
 ## References  
-- [ELK Stack Documentation](https://www.elastic.co/guide/index.html)  
-- [Grafana Loki Documentation](https://grafana.com/docs/loki/latest/)  
-- [Splunk Alerting Best Practices](https://docs.splunk.com/Documentation)  
-- [SOC2 Logging Requirements](https://www.aicpa.org/soc2)  
+| Title                          | Link                                                                 |  
+|--------------------------------|----------------------------------------------------------------------|  
+| Splunk Alerting Best Practices       | [Visit](https://docs.splunk.com/Documentation) |  
+| Grafana Loki Documentation                  | [Visit](https://grafana.com/docs/loki/latest/) |

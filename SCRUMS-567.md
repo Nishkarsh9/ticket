@@ -12,7 +12,7 @@
 - [Notification & Escalation Process](#notification--escalation-process)  
   - [Notification Channels](#notification-channels)  
   - [Escalation Workflow](#escalation-workflow)  
-- [Contact Information]((#contact-information)  
+- [Contact Information](#contact-information)  
 - [References](#references)  
 
 ---

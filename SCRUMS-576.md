@@ -180,5 +180,5 @@ Key takeaways for managing Terraform infrastructure divergence:
 
 | Title                          | Link                                                                 |  
 |--------------------------------|----------------------------------------------------------------------|  
-| Splunk Documentation       | [Visit](https://docs.splunk.com/) |  
-| Grafana Loki Docs                  | [Visit](https://grafana.com/docs/loki/latest/) |
+| GitOps Principles       | [Visit](https://www.gitops.tech/) |  
+| Terraform Official Documentation - State                  | [Visit](https://developer.hashicorp.com/terraform/language/state) |

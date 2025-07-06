@@ -151,5 +151,5 @@ This document lists and describes popular tools for implementing GitOps with Ter
 
 | Title                          | Link                                                                 |  
 |--------------------------------|----------------------------------------------------------------------|  
-| Splunk Documentation       | [Visit](https://docs.splunk.com/) |  
-| Grafana Loki Docs                  | [Visit](https://grafana.com/docs/loki/latest/) |
+| Atlantis Documentation       | [Visit](https://www.runatlantis.io/docs/) |  
+| Terraform Cloud GitOps                  | [Visit](https://www.terraform.io/cloud-docs/run/gitops) |

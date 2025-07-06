@@ -1,5 +1,9 @@
 # Infrastructure GitOps (Beyond Expectation) - Terraform Infra Divergence Management
 
+| Last Updated | Version | Author          | Comment         | Reviewer |
+|--------------|---------|-----------------|-----------------|----------|
+|  06-07-2025  | V1      | Nishkarsh Kumar | Internal Review | Pritam   |
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Understanding Terraform Infra Divergence](#understanding-terraform-infra-divergence)
@@ -10,6 +14,7 @@
   - [Correction Strategies](#correction-strategies)
 - [Best Practices](#best-practices)
 - [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
 - [References](#references)
 
 ---
@@ -163,3 +168,17 @@ Key takeaways for managing Terraform infrastructure divergence:
 - Automation reduces human error
 - Visibility through monitoring is critical
 - Culture of infrastructure-as-code adoption is fundamental
+
+## Contact Information  
+| **Name**    | **Email**                |
+|-------------|--------------------------|
+| Nishkarsh Kumar     | nishkarsh.kumar.snaatak@mygurukulam.co  |  
+
+---
+
+## References  
+
+| Title                          | Link                                                                 |  
+|--------------------------------|----------------------------------------------------------------------|  
+| Splunk Documentation       | [Visit](https://docs.splunk.com/) |  
+| Grafana Loki Docs                  | [Visit](https://grafana.com/docs/loki/latest/) |

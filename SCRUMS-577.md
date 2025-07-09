@@ -92,7 +92,7 @@ jobs:
 
 1. Manually modify an EC2 instance tag in the AWS Console.
 2. Run the following command:
-   ```bash
+```bash
    terraform plan
 ```
 3. Observe the drift detection output showing the difference between the desired and actual state.

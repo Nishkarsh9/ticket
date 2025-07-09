@@ -170,5 +170,5 @@ Run validation script:
 
 | Title                          | Link                                                                 |  
 |--------------------------------|----------------------------------------------------------------------|  
-| Atlantis Documentation       | [Visit](https://www.runatlantis.io/docs/) |  
-| Terraform Cloud GitOps                  | [Visit](https://www.terraform.io/cloud-docs/run/gitops) |
+| Terraform Official Documentation - Drift Detection       | [Visit](https://developer.hashicorp.com/terraform/tutorials/state/resource-drift) |  
+| GitOps Working Group - Best Practices                  | [Visit](https://www.gitops.tech/) |

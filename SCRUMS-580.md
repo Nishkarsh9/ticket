@@ -11,7 +11,8 @@
 4. [Testing the Workflow](#testing-the-workflow)
 5. [How It Works](#how-it-works)
 6. [Cleanup](#cleanup)
-7. [References](#references)
+7. [Contact Information](#contact-information)
+8. [References](#references)
 
 ## Overview
 This POC demonstrates the simplest GitOps workflow with:
